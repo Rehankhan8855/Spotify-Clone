@@ -1,0 +1,68 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /*font style lagana baki hai 1.30 video pe lagayege age*/
+    font-family:sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding:0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+}
+
+.container{
+    min-height:55vh;
+    background-color: #000;
+    color:#fff;
+    font-family: /*33.57 pe dekhna hai hai font family kese lagate hai*/;
+    display: flex;
+    margin:23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding:34px;
+
+}
+
+.bottom{
+    position:sticky;
+    height:130px;
+    background-color:#000;
+    bottom:0;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+#myProgressBar{
+    width:80vw;
+    text-align: center;
+    
+}
